@@ -1,6 +1,19 @@
-var p;
+function D() {
 
-if ((p = prompt("#*&$@#($^#@&*$^@$(*&")) === null) {
+  this.x = 123
+  this.do = function() {
 
-  document.querySelector("p").textContent = p;
+    document.querySelector("p").textContent = this.x; 
+  };
 }
+
+function clicked() {
+
+  a.x++;
+
+  a.do;
+}
+
+var a = new D()
+
+var b = document.querySelector("button").onclick = clicked()
