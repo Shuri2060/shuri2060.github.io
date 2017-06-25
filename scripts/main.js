@@ -1,6 +1,6 @@
 function D() {
 
-  this.x = 123
+  this.x = 12345
   this.do = function() {
 
     document.querySelector("p").textContent = this.x; 
