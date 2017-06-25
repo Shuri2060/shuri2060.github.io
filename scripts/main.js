@@ -7,13 +7,13 @@ function D() {
   };
 }
 
-function clicked() {
+var clicked = function() {
 
   a.x++;
 
-  a.do;
-}
+  a.do();
+};
 
 var a = new D()
 
-var b = document.querySelector("button").onclick = clicked()
+document.querySelector("button").onclick = clicked
