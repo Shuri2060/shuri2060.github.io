@@ -1,0 +1,1 @@
+# shuri2060.github.io
