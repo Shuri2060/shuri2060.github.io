@@ -14,6 +14,6 @@ var clicked = function() {
   a.do();
 };
 
-var a = new D()
+var a = new D();
 
-document.querySelector("button").onclick = clicked
+document.querySelector("button").onclick = clicked;
